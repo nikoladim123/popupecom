@@ -40,7 +40,8 @@
     width: 90%;
     margin: 5%;
   }
-  .shareModule{
+
+  .shareModule {
     display: none;
   }
 
@@ -284,7 +285,8 @@
     padding-top: 8vw;
     display: block;
   }
-  .cmsContainer{
+
+  .cmsContainer {
     width: 200%;
     position: relative;
     left: 0%;
@@ -354,15 +356,14 @@
     text-decoration: underline;
   }
 
-  .servicesDotsContainer{
+  .recentImageCarDotsContainer {
     display: flex;
     justify-content: center;
-    height: auto;
-    align-items: baseline;
-    padding-top: 6vw;
-    flex-wrap: wrap;
+    height: 14vw;
+    align-items: flex-end;
   }
-  .imAdot{
+
+  .imAdot {
     width: 3vw;
     height: 3vw;
     border: .75vw solid white;
@@ -488,6 +489,28 @@
 
   /* ecom mobiles end */
   /* why hire us */
+  .servicesDotsContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: baseline;
+    padding-top: 6vw;
+    flex-wrap: wrap;
+  }
+
+  .whyHireUsSection .servicesDotsContainer {
+    margin-bottom: 9vw;
+  }
+
+  .servicesDot {
+    width: 3vw;
+    height: 3vw;
+    border: .75vw solid white;
+    border-radius: 50%;
+    margin: 0 2vw;
+    transition: 0.8s ease-in;
+  }
+
   .whyHireUsSection {
     display: flex;
     flex-direction: column;
@@ -507,7 +530,6 @@
     color: #414248;
   }
 
-
   .promiseContainer {
     width: 100%;
     background-size: 100% 100%;
@@ -520,12 +542,17 @@
 
   .promiseGrid {
     background: #c3c3c3;
-    width: 100%;
+    width: 600%;
     /* height: 34.3vw; */
     /* border: 1px solid red; */
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-flow: dense;
+    grid-template-rows: 1fr;
+    transition: .5s ease-in;
+    left: -00%;
+    position: relative;
+    margin-bottom: 9vw;
   }
 
   .promiseGridBox {
@@ -536,9 +563,9 @@
     grid-column: span 1;
     grid-row: span 1;
     height: 26vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    border-bottom: 1px solid gray;
+    padding-top: 6vw;
+    padding-bottom: 1vw;
+    /* border-bottom: 1px solid gray; */
   }
 
   .promiseGridBox:hover {
@@ -547,7 +574,7 @@
   }
 
   .promiseImageBox {
-    width: 18.742vw;
+    width: 26.742vw;
     /* border: 1px solid; */
     display: flex;
     align-items: baseline;
@@ -558,7 +585,7 @@
     display: flex;
     flex-direction: column;
     padding-left: 0.7vw;
-    padding-right: 1.7vw;
+    padding-right: 5.7vw;
     width: 80%;
   }
 
@@ -571,7 +598,7 @@
   }
 
   .promiseBoxText p {
-    font-size: 3.1vw;
+    font-size: 4.1vw;
     font-family: 'Poppins-Regular';
     color: #777;
   }
@@ -581,10 +608,15 @@
     background-color: #fd9685;
     box-shadow: 0px 0px 30px -10px rgba(255, 255, 255, 1);
     display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 11%;
+    padding-right: 2vw;
+    box-sizing: border-box;
   }
 
   .guaranteeImgContainer {
-    width: 17.1325vw;
+    width: 32.1325vw;
     position: relative;
   }
 
@@ -608,7 +640,7 @@
     margin-top: 0.48vw;
     margin-bottom: 1vw;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'Poppins-Thin';
     font-weight: 600;
   }
@@ -641,7 +673,8 @@
     padding-bottom: 4vw;
     position: relative;
   }
-  .supMainHeading{
+
+  .supMainHeading {
     width: 40.95121vw;
     float: right;
     margin-right: 10vw;

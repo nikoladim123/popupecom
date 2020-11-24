@@ -770,6 +770,72 @@ h1 span {
 }
 
 /* why hire us */
+/* watch module */
+.watchMainContainer{
+  position: relative;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+}
+.watchesBG{
+  width: 100%;
+  position: relative;
+}
+
+.coloredWatches{
+  transition: all 1s ease;
+  position: absolute;
+  width: 34%;
+  top: 12%;
+  left: 36%;
+  opacity: 0;
+}
+.coloredWatches:nth-child(5){
+}
+
+.colorChangeContainer{
+  position: absolute;
+  top: 18%;
+  right: 28%;
+  transform: rotate(5deg);
+}
+.colorChangeButton{
+  margin-bottom: 0.25vw;
+  position: relative;
+  opacity: 0.6;
+  width: 2vw;
+  height: 2vw;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0.2vw solid #f2dbac;
+}
+
+.colorChangeBG {
+  position: absolute;
+  width: 6.1vw;
+  transition: 0.5s ease;
+  height: 6.1vw;
+  top: -3vw;
+  left: -3vw;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%);
+}
+.green{
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(10,89,93,1) 60%, rgba(10,89,93,1) 100%);
+}
+.brown{
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(102,45,0,1) 60%, rgba(102,45,0,1) 100%);
+}
+.purple{
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(39,9,95,1) 60%, rgba(39,9,95,1) 100%);
+}
+.gray{background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 60%, rgba(51,51,51,1) 100%);}
+
+.colorChangeBG:hover{
+  top: -2.5vw !important;
+  left: -2.5vw !important;
+}
+/* watch module */
 /* supAndMain */
 .supAndMain {
   display: flex;
