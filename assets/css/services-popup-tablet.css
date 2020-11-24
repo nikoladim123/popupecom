@@ -1,0 +1,453 @@
+@media only screen and (min-device-width : 767px) and (max-device-width : 1360px) {
+  .showDesktop {
+    display: none;
+  }
+
+  .showTablet {
+    display: block
+  }
+
+  h1 {
+    font-size: 8.71875vw;
+    margin-top: 5.5vw;
+    margin-bottom: 1.8vw;
+  }
+
+  .shareModule {
+    right: 7vw;
+  }
+
+  .popupMainContainer {
+    margin-top: 13.8vw;
+  }
+
+  .contactUsContainer {
+    /* width: 100% */
+    right: 7vw;
+  }
+
+  .contactUsContainerShow {
+    width: 87vw;
+  }
+
+  .contactUsContainerHide {
+    width: 0vw;
+  }
+
+  .popupContent {
+    width: 87.2439vw;
+    /* margin-top: 1.8vw; */
+  }
+
+  .sideVid {
+    width: 30.2195vw;
+    height: 29.2195vw;
+    margin-left: 3.70731vw;
+  }
+
+  .UIUXsectionTwo h2 {
+    margin-top: 12vw;
+    font-size: 9.31707vw;
+  }
+
+  .uiuxSectionOne p {
+    font-size: 2vw;
+  }
+
+  .UIUXsectionTwo p {
+    font-size: 2.1vw;
+    width: 74.34895vw;
+    margin-left: 5.5vw;
+    line-height: 1.7;
+  }
+
+  .contactUsButton {
+    margin: 0;
+    margin-top: 11vw;
+  }
+
+  .contactUsParagraph {
+    color: rgba(255, 255, 255, .7);
+    writing-mode: tb;
+    font-size: 3.90625vw;
+    margin: 0;
+    font-family: 'Poppins-Black';
+  }
+
+  .ecomImg {
+    width: 28.2195vw;
+    height: 28.2195vw;
+    margin-left: 3.70731vw;
+  }
+
+  .uiuxSectionOne p {
+    font-size: 2.1vw;
+    margin: 0;
+    color: #666666;
+    margin-left: 3.2vw;
+    font-family: 'Poppins-Regular';
+    margin-right: 4vw;
+    margin-top: -0.5vw;
+    line-height: 1.6;
+  }
+
+  .eComMain {
+    width: 100%;
+    position: relative;
+    transition: 1.5s ease;
+    padding-top: 8vw;
+    margin-top: -5vw;
+  }
+
+  .ecomSecTwo h2 {
+    font-size: 11.31707vw;
+    font-family: 'Morganite-Thin';
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .ecomSecTwo p {
+    color: #444444;
+    font-size: 2.1vw;
+    width: 74.34895vw;
+    margin-left: 5.5vw;
+    line-height: 1.7;
+  }
+
+  .ourWebDevProcessContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 14.6vw;
+  }
+
+  .procBox {
+    margin: 0.7vw;
+    background: #e0e0e0;
+    width: 39.099vw;
+    padding: 0 1.1138vw;
+    height: auto;
+    background: linear-gradient(to bottom, #d3d3d3 0%, #c4c3c3 100%);
+    background: transparent;
+  }
+
+  .procImgBox {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .procImgBox img {
+    width: 14.04878vw;
+    margin-top: -6.4vw;
+  }
+
+  .procBox h3 {
+    font-size: 3vw;
+    font-family: 'Poppins-Bold';
+    color: #333;
+    margin-bottom: 0;
+    margin-left: 1vw;
+    text-align: center;
+  }
+
+  .procBox h3 span {
+    font-family: 'Poppins-Thin';
+  }
+
+  .processTextBox {
+    background: linear-gradient(to bottom, #d3d3d3 0%, rgba(235, 191, 186, 1) 100%);
+    padding: 0 1vw;
+  }
+
+  .processTextBox p {
+    color: #717276;
+    font-size: 2.1vw;
+    font-family: 'Poppins-Regular';
+    line-height: 1.5;
+    height: 53vw;
+    margin-top: 0;
+    padding-top: 1.2vw;
+    width: auto !important;
+  }
+
+  .processTextBox a {
+    color: #0ebae6;
+    white-space: nowrap;
+    font-family: 'Poppins-Bold';
+  }
+
+  .processTextBox a:hover {
+    text-decoration: underline;
+  }
+
+  .promiseBoxText p {
+    font-size: 1.35vw;
+    font-family: 'Poppins-Regular';
+    color: #777;
+  }
+
+  /* why hire us */
+  .whyHireUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whyHireUs {
+    font-size: 11.31707vw;
+    font-family: 'Morganite-Thin';
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .whyHireUs span {
+    font-family: 'Morganite-Bold';
+    color: #414248;
+  }
+
+  .promiseContainer {
+    width: 92%;
+    background-size: 100% 100%;
+    margin-bottom: 2.113vw;
+    overflow: hidden;
+    padding-bottom: 0;
+    background: #c3c3c3;
+    /* padding-top: 3vw; */
+  }
+
+  .promiseGrid {
+    background: #c3c3c3;
+    width: 100%;
+    /* height: 34.3vw; */
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+    margin-bottom: 3vw;
+  }
+
+  .promiseGridBox {
+    transition: 0.4s;
+    /* border: 1px solid green; */
+    display: flex;
+    color: white;
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 15.2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .promiseGridBox:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 61px -26px rgba(255, 255, 255, 1);
+  }
+
+  .promiseImageBox {
+    width: 10.742vw;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .promiseBoxText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.7vw;
+    padding-right: 2.2vw;
+    width: 68%;
+  }
+
+  .promiseBoxText h2 {
+    font-size: 2vw;
+    color: #555555;
+    margin: 0;
+    font-family: 'Poppins-Regular';
+    text-align: left;
+  }
+
+  .promiseBoxText p {
+    font-size: 1.6vw;
+    font-family: 'Poppins-Regular';
+    color: #777;
+  }
+
+  .guaranteeContainer {
+    /* height: 15.594vw; */
+    background-color: #fd9685;
+    box-shadow: 0px 0px 30px -10px rgba(255, 255, 255, 1);
+    display: flex;
+  }
+
+  .guaranteeImgContainer {
+    width: 12.1325vw;
+    position: relative;
+  }
+
+  .guaranteeImgContainer img {
+    width: 7.2vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 1vw;
+  }
+
+  .guaranteeTextConatainer h2 {
+    font-size: 2.1vw;
+    margin: 0;
+    color: #ffe71e;
+    text-align: left;
+    margin-top: 1.5vw;
+    font-family: 'Poppins-Bold';
+  }
+
+  .guaranteeTextConatainer p:nth-child(2) {
+    margin-top: 0.48vw;
+    margin-bottom: 1vw;
+    color: white;
+    font-size: 1.6vw;
+    font-family: 'Poppins-Thin';
+    font-weight: 600;
+  }
+
+  .promiseImageBox img {
+    width: 8vw;
+    position: relative;
+    left: 1vw;
+    top: 0vw;
+  }
+
+  .guaranteeTextConatainer p:nth-child(3) {
+    color: white;
+    font-size: 0.68226vw;
+    opacity: 0.7;
+    font-family: 'Poppins-Thin';
+  }
+
+  /* why hire us */
+  /* supAndMain */
+.supAndMain {
+  display: flex;
+  justify-content: center;
+}
+
+.supMainINside {
+  background: radial-gradient(ellipse at center, rgba(251, 239, 223, 1) 0%, rgba(255, 233, 183, 1) 100%);
+  width: 55.560vw;
+  display: flex;
+  padding-bottom: 4vw;
+  width: 92%;
+  position: relative;
+  height: 66vw;
+}
+.supMainHeading{
+  width: 19.95121vw;
+  margin-left: 3vw;
+}
+
+.supmainImgDiv {
+  width: 47%;
+}
+
+.supmainImgDiv img {
+  width: 38vw;
+  margin-top: 4.0975609vw;
+}
+
+.supMainTextContainer {
+  width: 50%;
+  margin-top: 4vw;
+}
+
+/* .supMainTextContainer img {
+  width: 11.951219vw;
+  margin-top: 0;
+  margin-top: 4vw;
+} */
+.supMainDescription {
+  font-size: 1.76vw;
+  font-family: 'Poppins-Regular';
+  line-height: 1.3;
+}
+
+.feedBackSingle {
+  border: 1px solid #fbd36c;
+  right: 9vw;
+  padding-top: 1.186vw;
+  padding-left: 1.11vw;
+  padding-right: 1.111vw;
+  top: 35vw;
+  /* bottom: 0; */
+  width: 92%;
+  background: linear-gradient(to right, rgba(251, 239, 223, 0) 0%, rgba(251, 211, 108, 0.3) 100%);
+  position: absolute;
+  width: 60vw;
+  left: 9vw;
+}
+
+.imgNameFeedback {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat-Bold';
+}
+
+.imgNameFeedback img {
+  margin-right: 0.8154vw;
+  width: 6.077vw;
+  height: 5.9288vw;
+}
+
+.imgNameFeedback p {
+  font-size: 2vw;
+  margin: 0;
+}
+
+.imgNameFeedback a {
+  text-decoration: none;
+}
+
+.feedBackText {
+  text-align: justify;
+}
+
+.feedBackText p {
+  margin-left: 2.8924vw;
+  font-size: 1.7vw;
+  font-family: 'Poppins-Regular';
+  line-height: 1.4;
+  font-weight: 100;
+  color: #666b5f;
+}
+
+/* supAndMain */
+/* footer popup */
+.contentFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14.63414vw;
+}
+
+.logoPopUp {
+  width: 37.6829vw;
+}
+
+.contentFooter p {
+  font-size: 0.878048vw;
+  color: #3f3f3f;
+  margin: 0;
+}
+
+.privacyPolicyDiv {}
+
+.privacyPolicyDiv a {
+  font-size: 0.878048vw;
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+/* footer popup */
+}
