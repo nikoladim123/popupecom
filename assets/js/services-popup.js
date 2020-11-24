@@ -1,14 +1,20 @@
 var contactUsButton = document.getElementsByClassName('contactUsButton');
 var contactUsContainer = document.getElementsByClassName('contactUsContainer');
 var contcactUsContainerID = document.getElementById('contcactUsContainerID');
+var popupSideMenuContainer = document.getElementsByClassName('popupSideMenuContainer');
+var popupSideMenuItem = document.getElementsByClassName('popupSideMenuItem');
 
 var contactUsToogle = 1;
 function toogleContact() {
   if(contactUsToogle){
-    contcactUsContainerID.className = 'contactUsContainer contactUsContainerShow'
+    contcactUsContainerID.className = 'contactUsContainer contactUsContainerShow';
+    popupSideMenuContainer[0].style.background = '#b088e5'
+    popupSideMenuItem[0].style.opacity = '0'
     contactUsToogle = 0;
   }else{
     contcactUsContainerID.className = 'contactUsContainer contactUsContainerHide'
+    popupSideMenuContainer[0].style.background = 'transparent'
+    popupSideMenuItem[0].style.opacity = '1'
     contactUsToogle = 1;
   }
 }

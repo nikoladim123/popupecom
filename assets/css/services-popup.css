@@ -298,6 +298,7 @@ h1 span {
 .popupSideMenuContainer {
   position: relative;
   flex-grow: 1;
+  transition: 0.5s ease-in;
 }
 
 .contactUsContainer {
@@ -343,6 +344,7 @@ h1 span {
   align-items: center;
   justify-content: center;
   height: 6.926829vw;
+  transition: 0.5s ease-in;
 }
 
 .popupSideMenu h3 {
