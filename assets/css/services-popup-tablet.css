@@ -116,7 +116,7 @@
   }
 
   .ourWebDevProcessContainer {
-    display: flex;
+    display: block;
     justify-content: center;
     margin-top: 14.6vw;
   }

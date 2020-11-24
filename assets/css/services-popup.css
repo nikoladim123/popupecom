@@ -450,6 +450,10 @@ h1 span {
   justify-content: center;
   margin-top: 14.6vw;
 }
+.cmsContainer{
+  display: flex;
+  justify-content: center;
+}
 
 .procBox {
   margin: 0.7vw;
